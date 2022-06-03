@@ -54,12 +54,12 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldGetRemains1000ToNextCashBack() {
+    public void shouldGetRemains0WhenAmount1000() {
 
         int amount = 1000;
 
         int actual = service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
 
         assertEquals(actual, expected);
     }
