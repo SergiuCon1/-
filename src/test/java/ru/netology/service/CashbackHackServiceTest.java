@@ -1,5 +1,6 @@
 package ru.netology.service;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -52,6 +53,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
+    @Ignore
     @Test
     public void shouldGetRemains0WhenAmount1000() {
 
