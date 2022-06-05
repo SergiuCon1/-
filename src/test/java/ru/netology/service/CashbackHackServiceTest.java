@@ -1,6 +1,7 @@
 package ru.netology.service;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
@@ -53,6 +54,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
+    @Ignore
     @Test
     public void shouldGetRemains0WhenAmount1000() {
 
