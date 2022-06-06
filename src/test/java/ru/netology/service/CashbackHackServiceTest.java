@@ -53,7 +53,6 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @Ignore
     @Test
     public void shouldGetRemains0WhenAmount1000() {
 
